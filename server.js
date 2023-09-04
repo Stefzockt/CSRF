@@ -56,8 +56,8 @@ app.get('/', requireLogin, function(req, res, next) {
 // Super simple login system.
 // This is not how real login systems should work.
 var validLogins = [
-	{ username: 'test1', password: 'test1' },
-	{ username: 'test2', password: 'test2' }
+	{ username: 'Anna', password: 'IchLiebeHunde' },
+	{ username: 'BoeserMann', password: 'EasyCash123!' }
 ];
 
 app.get('/login', function(req, res, next) {
@@ -142,8 +142,8 @@ app.post('/transfer', requireLogin, function(req, res, next) {
 // Simple accounts ledger.
 // This information would normally be stored in a database like MySQL, PostgreSQL, etc.
 var accounts = {
-	test1: '500',
-	test2: '500'
+	Anna: '500',
+	BoeserMann: '500'
 };
 
 var transferFunds = function(to, from, amount, cb) {

@@ -33,12 +33,12 @@ Server started and listening at localhost:3000
 Open your browser to and navigate to [localhost:3000](http://localhost:3000).
 
 Login using the victim account:
-* Username: `test1`
-* Password: `test1`
+* Username: `Anna`
+* Password: `IchLiebeHunde`
 
 Login using the hacker account:
-* Username: `test2`
-* Password: `test2`
+* Username: `BoeserMann`
+* Password: `EasyCash123!`
 
 In a new tab, navigate to [localhost:3001](http://localhost:3001) to view some examples of CSRF exploits. You will notice that the balance goes down everytime you load that page. This is because the page is successfully exploiting a CSRF vulnerability.
 
